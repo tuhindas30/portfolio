@@ -1,2 +1,4 @@
-# neogcamp-lesson3
- Coding for neogcamp lesson 3 using HTML and CSS
+# My Portfolio site
+ This is my portfolio site created during neogcamp.
+ 
+ Go and check it out here: https://tuhindasportfolio.netlify.app/
