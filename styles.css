@@ -1,119 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 :root {
-    --primary-color: #F9A826;
-    --dark-gray: #6B7280;
-    --off-white: #D1D5DB;
+  --primary-color: #f9a826;
+  --dark-gray: #6b7280;
+  --off-white: #e5e7eb;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    max-width: 800px;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  /* max-width: 800px; */
 }
 hr {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
 }
 .container {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
 .container-center {
-    max-width: 50%;
-    margin: auto;
+  max-width: 50%;
+  margin: auto;
 }
 .link {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 .link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
 }
 .link-secondary {
-    color: black;
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+  color: black;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
 .link-block {
-    display: block;
-    width: 40%;
-    text-align: center;
-    margin-bottom: 1.5rem;
+  display: block;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 ol {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    padding-inline-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
 }
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 .navigation .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 .navigation .link {
-    color: white;
+  color: white;
 }
 .navigation .link-active {
-    font-weight: bold;
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: var(--dark-gray);
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: var(--dark-gray);
 }
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+  padding: 2rem;
+  padding-top: 5rem;
 }
 .hero .hero-img {
-    max-width: 40%;
-    display: block;
-    margin: auto;
+  max-width: 40%;
+  display: block;
+  margin: auto;
 }
 .hero .hero-heading {
-    color: var(--dark-gray);
-    padding-top: 2rem;
-    text-align: center;
-    max-width: 60%;
-    margin: auto;
+  color: var(--dark-gray);
+  padding-top: 2rem;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
 }
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
 .section h1 {
-    text-align: center;
+  text-align: center;
 }
 .ow {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 .footer {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 2rem 1rem;
-    text-align: center;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 .footer .link {
-    color: white;
+  color: white;
 }
 .footer .footer-header {
-    font-weight: bold;
-    font-size: large;
+  font-weight: bold;
+  font-size: large;
 }
 .footer ul {
-    padding-inline-start: 0px
+  padding-inline-start: 0px;
 }
