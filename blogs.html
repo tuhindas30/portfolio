@@ -5,24 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/favicon.ico" />
     <title>Blogs | Tuhin Das</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles/blogs.css" />
   </head>
 
   <body>
     <nav class="navigation">
-      <div class="nav-brand container">Tuhin Das</div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link" href="/">Home</a>
+      <input id="nav-toggle" type="checkbox" />
+      <div class="nav-brand">
+        <a href="/">
+          <h1>&lt; Tuhin Das /&gt;</h1>
+        </a>
+      </div>
+      <ul class="nav-pills list-non-bullet">
+        <li class="visibleBorderLeftRight"><a href="/">Home</a></li>
+        <li class="visibleBorderLeftRight">
+          <a href="/projects.html">Projects</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="/projects.html">Projects</a>
+        <li class="link-active">
+          <a href="/blogs.html">Blogs</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link link-active" href="/blogs.html">Blogs</a>
+        <li class="visibleBorderLeftRight">
+          <a href="/contact.html">Contact Me</a>
         </li>
       </ul>
+      <label for="nav-toggle" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
     </nav>
+
+    <header class="hero">
+      <div class="hero-heading">
+        <h2><span style="color: var(primary-color)">Blogs</span></h2>
+        <p>Stay tuned. Coming soon!</p>
+      </div>
+      <div class="hero-img">
+        <img src="images/blogs.svg" alt="blogs image" />
+      </div>
+    </header>
+
     <section class="section">
       <div class="container container-center">
         <h1>#DummyBlogPost 1</h1>
@@ -46,9 +68,9 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="footer-header">Connect with me on :</div>
+      <div class="footer-header"><h4>Connect with me on :</h4></div>
       <ul class="social-links list-non-bullet">
-        <li class="list-item-inline">
+        <li class="visibleBorderLeftRight">
           <a
             class="link"
             href="https://www.linkedin.com/in/tuhindas30/"
@@ -56,17 +78,45 @@
             >LinkedIn</a
           >
         </li>
-        <li class="list-item-inline">
+        <li class="visibleBorderLeftRight">
           <a class="link" href="https://twitter.com/tuhindas30" target="_blank"
             >Twitter</a
           >
         </li>
-        <li class="list-item-inline">
+        <li class="visibleBorderLeftRight">
           <a class="link" href="https://github.com/tuhindas30" target="_blank"
             >GitHub</a
           >
         </li>
+        <li class="visibleBorderLeftRight">
+          <a
+            class="link"
+            href="https://www.instagram.com/tuhin.das.td/"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li class="visibleBorderLeftRight">
+          <a
+            class="link"
+            href="https://www.facebook.com/tuhin.das.td/"
+            target="_blank"
+            >Facebook</a
+          >
+        </li>
+        <li class="visibleBorderLeftRight">
+          <a
+            class="link"
+            href="mailto:mailme.tuhindas@gmail.com"
+            target="_blank"
+            >Mail</a
+          >
+        </li>
       </ul>
+      <div class="footer-note">
+        <p><strong>Made with ❤️ by Tuhin</strong></p>
+        <small>This portfolio was made during LevelZero of NeoG Camp.</small>
+      </div>
     </footer>
   </body>
 </html>

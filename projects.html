@@ -5,216 +5,340 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/favicon.ico" />
     <title>Projects | Tuhin Das</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/projects.css" />
   </head>
 
   <body>
     <nav class="navigation">
-      <div class="nav-brand container">Tuhin Das</div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link" href="/">Home</a>
+      <input id="nav-toggle" type="checkbox" />
+      <div class="nav-brand">
+        <a href="/">
+          <h1>&lt; Tuhin Das /&gt;</h1>
+        </a>
+      </div>
+      <ul class="nav-pills list-non-bullet">
+        <li class="visibleBorderLeftRight"><a href="/">Home</a></li>
+        <li class="link-active">
+          <a href="/projects.html">Projects</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link link-active" href="/projects.html">Projects</a>
+        <li class="visibleBorderLeftRight">
+          <a href="/blogs.html">Blogs</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="/blogs.html">Blogs</a>
+        <li class="visibleBorderLeftRight">
+          <a href="/contact.html">Contact Me</a>
         </li>
       </ul>
+      <label for="nav-toggle" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
     </nav>
-    <ol reversed>
-      <section class="section ow">
-        <div class="container container-center">
-          <li>
-            <h2>Cash Register Manager</h2>
-            <small>January, 2021</small>
+
+    <header class="hero">
+      <div class="hero-heading">
+        <h2><span style="color: var(--primary-color)">Projects</span></h2>
+        <p>I like to showcase my projects.</p>
+      </div>
+      <div class="hero-img">
+        <img src="images/projects.svg" alt="projects image" />
+      </div>
+    </header>
+    <section class="section ow">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>Cash Register Manager</h2>
+          <small>January, 2021</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img
+              src="/images/Cash-register-manager-image.png"
+              alt="Quiz about me image"
+            />
+          </div>
+          <div class="section-para">
             <p>
               Facing difficulties while returning changes? Here's a cash note
               counter to help you out.
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://cashregistermanager.netlify.app/"
-              target="_blank"
-              >Live Project</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/cash-register-manager"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://cashregistermanager.netlify.app/"
+                target="_blank"
+                >Live Project</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/cash-register-manager"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="section">
-        <div class="container container-center">
-          <li>
-            <h2>GoodFoods</h2>
-            <small>December, 2020</small>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>GoodFoods</h2>
+          <small>December, 2020</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img src="/images/goodfood-image.png" alt="Quiz about me image" />
+          </div>
+          <div class="section-para">
             <p>
               Do you love foods? You would find some good recommendations for
               all the genre. Made using ReactJS with love.
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://goodfoods-tuhindas.netlify.app/"
-              target="_blank"
-              >Live Project</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/Good-Food-Recommentation"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://goodfoods-tuhindas.netlify.app/"
+                target="_blank"
+                >Live Project</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/Good-Food-Recommentation"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="section ow">
-        <div class="container container-center">
-          <li>
-            <h2>Food Emoji Interpreter</h2>
-            <small>December, 2020</small>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>Food Emoji Interpreter</h2>
+          <small>December, 2020</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img
+              src="/images/emoji-interpreter-image.png"
+              alt="Quiz about me image"
+            />
+          </div>
+          <div class="section-para">
             <p>
               Do you love food much? Here is a food emoji library for you. Check
               it out!
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://food-emoji-interpreter-tuhindas.netlify.app/"
-              target="_blank"
-              >Live Project</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/Food-Emoji-Interpreter"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://food-emoji-interpreter-tuhindas.netlify.app/"
+                target="_blank"
+                >Live Project</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/Food-Emoji-Interpreter"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="section">
-        <div class="container container-center">
-          <li>
-            <h2>Speak like Pirates, can you?</h2>
-            <small>November, 2020</small>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>Speak like Pirates, can you?</h2>
+          <small>November, 2020</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img
+              src="/images/piratian-talk-image.png"
+              alt="Quiz about me image"
+            />
+          </div>
+          <div class="section-para">
             <p>
               Translate your sentences into the voice like dangerous pirates! If
               you are a Pirates of Caribbean fan, you will love this.
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://pirate-translator-tuhindas.netlify.app"
-              target="_blank"
-              >Try Translator</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/Piratian-Translator"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://pirate-translator-tuhindas.netlify.app"
+                target="_blank"
+                >Try Translator</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/Piratian-Translator"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="section ow">
-        <div class="container container-center">
-          <li>
-            <h2>Wish your family in Banana this New Year</h2>
-            <small>November, 2020</small>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>Wish your family in Banana this New Year</h2>
+          <small>November, 2020</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img
+              src="/images/banana-talk-image.png"
+              alt="Quiz about me image"
+            />
+          </div>
+          <div class="section-para">
             <p>
               This New Year wish your family like a minion. Write your wishes
               and we will transform it into banana language.
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://banana-translator-tuhindas.netlify.app"
-              target="_blank"
-              >Let's make a wish</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/Banana-Translator"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://banana-translator-tuhindas.netlify.app"
+                target="_blank"
+                >Let's make a wish</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/Banana-Translator"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="section">
-        <div class="container container-center">
-          <li>
-            <h2>Want to test your general knowledge?</h2>
-            <small>November, 2020</small>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>Want to test your general knowledge?</h2>
+          <small>November, 2020</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img src="/images/simple-quiz.png" alt="Quiz about me image" />
+          </div>
+          <div class="section-para">
             <p>
               Another nodeJS CLI app, built as an assignment in the neogcamp.
               This checks your general knowledge.
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://repl.it/@TuhinDas5/SimpleQuiz?embed=1&output=1"
-              target="_blank"
-              >Play the game</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/Simple-Quiz-CLI-App"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://repl.it/@TuhinDas5/SimpleQuiz?embed=1&output=1"
+                target="_blank"
+                >Play the game</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/Simple-Quiz-CLI-App"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="section ow">
-        <div class="container container-center">
-          <li>
-            <h2>How well do you know me?</h2>
-            <small>November, 2020</small>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <div class="section-heading">
+          <h2>How well do you know me?</h2>
+          <small>November, 2020</small>
+        </div>
+        <div class="flex-container">
+          <div class="section-img">
+            <img src="/images/quiz-about-me.png" alt="Quiz about me image" />
+          </div>
+          <div class="section-para">
             <p>
               A CLI app built with nodeJS. This is to find out who really knows
               me.
             </p>
-            <a
-              class="link link-primary link-block"
-              href="https://repl.it/@TuhinDas5/QuizAboutMe?embed=1&output=1"
-              target="_blank"
-              >Play the game</a
-            >
-            <a
-              class="link link-secondary link-block"
-              href="https://github.com/tuhindas30/Quiz-About-Me-CLI-App"
-              target="_blank"
-              >View source code</a
-            >
-          </li>
+            <div class="buttons">
+              <a
+                class="link link-primary link-block"
+                href="https://repl.it/@TuhinDas5/QuizAboutMe?embed=1&output=1"
+                target="_blank"
+                >Play the game</a
+              >
+              <a
+                class="link link-secondary link-block"
+                href="https://github.com/tuhindas30/Quiz-About-Me-CLI-App"
+                target="_blank"
+                >View source code</a
+              >
+            </div>
+          </div>
         </div>
-      </section>
-    </ol>
+      </div>
+    </section>
+
     <footer class="footer">
-      <div class="footer-header">Connect with me on :</div>
+      <div class="footer-header"><h4>Connect with me on :</h4></div>
       <ul class="social-links list-non-bullet">
-        <li class="list-item-inline">
+        <li class="visibleBorderLeftRight">
           <a
             class="link"
-            href="https://www.linkedin.com/in/tuhindas98/"
+            href="https://www.linkedin.com/in/tuhindas30/"
             target="_blank"
             >LinkedIn</a
           >
         </li>
-        <li class="list-item-inline">
+        <li class="visibleBorderLeftRight">
           <a class="link" href="https://twitter.com/tuhindas30" target="_blank"
             >Twitter</a
           >
         </li>
-        <li class="list-item-inline">
+        <li class="visibleBorderLeftRight">
           <a class="link" href="https://github.com/tuhindas30" target="_blank"
             >GitHub</a
           >
         </li>
+        <li class="visibleBorderLeftRight">
+          <a
+            class="link"
+            href="https://instagram.com/tuhin.das.td"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li class="visibleBorderLeftRight">
+          <a
+            class="link"
+            href="https://facebook.com/tuhin.das.td"
+            target="_blank"
+            >Facebook</a
+          >
+        </li>
+        <li class="visibleBorderLeftRight">
+          <a
+            class="link"
+            href="mailto:mailme.tuhindas@gmail.com"
+            target="_blank"
+            >Mail</a
+          >
+        </li>
       </ul>
+      <div class="footer-note">
+        <p><strong>Made with ❤️ by Tuhin</strong></p>
+        <small>This portfolio was made during LevelZero of NeoG Camp.</small>
+      </div>
     </footer>
   </body>
 </html>
